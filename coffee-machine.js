@@ -9,7 +9,7 @@ const ESPRESSO = {
 
 const AMERICANO = {
   beans: 10,
-  water: 10
+  water: 30
 };
 
 class CoffeeMachine {
@@ -18,10 +18,6 @@ class CoffeeMachine {
     this.water = MAX_WATER;
 
     this.grounds = 0;
-  }
-
-  validate({ beans, water }) {
-    return true;
   }
 
   use({ beans, water }) {
