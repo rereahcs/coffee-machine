@@ -10,7 +10,24 @@
   </head>
   <body>
     <main>
-      <!-- add your html markup here -->
+      <div class="grid-container">
+        <div class="water-tank"> 
+          <div class="water" id="water"></div>
+        </div>
+        <div class="display-container">  
+          <button class="buttons" id="espresso">Espresso</button>
+          <button class="buttons" id="americano">Americano</button>
+          <button class="buttons" id="fillBeans">New Beans</button>
+          <button class="buttons" id="fillWater">New Water</button>
+          <button class="buttons" id="emptyGrounds">Empty Grounds</button>
+          <div class="display-stats" id="getState"></div>
+        </div>
+        <div class="bean-tank">
+          <div class"beans"></div>
+        </div>
+        <div class="tap">  </div>
+        <div class="floor">  </div>
+      </div>
     </main>
 
     <script src="coffee-machine.js"></script>

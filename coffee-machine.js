@@ -80,6 +80,27 @@ class CoffeeMachine {
       grounds: this.grounds
     };
   }
+
+  getWater() {
+    return {
+      water: this.water
+    };
+  }
+
+  getBeans() {
+    return {
+      beans: this.beans
+    };
+  }
+
+  getGrounds() {
+    return {
+      grounds: this.grounds
+    };
+  }
+
 }
+
+
 
 window.coffeeMachine = new CoffeeMachine();
